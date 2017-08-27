@@ -1,0 +1,323 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 14 Aug 2017 11:25:59 PM EDT
+
+BeginCmp
+TimeStamp = 598F2D2C
+Path = /597D5BC7
+Reference = BT3;
+ValeurCmp = 3.7v;
+IdModule  = TI SBS:105070;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D21
+Path = /597D5BA3
+Reference = BT2;
+ValeurCmp = 3.7v;
+IdModule  = TI SBS:105070;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D37
+Path = /597D5C07
+Reference = BT4;
+ValeurCmp = 3.7v;
+IdModule  = TI SBS:105070;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D16
+Path = /597D5B15
+Reference = BT1;
+ValeurCmp = 3.7v;
+IdModule  = TI SBS:105070;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D48
+Path = /597DA829
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D59
+Path = /597DA9C3
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D6A
+Path = /597DAA35
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D7B
+Path = /597DAA98
+Reference = C4;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D8C
+Path = /597DC7E1
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2D9D
+Path = /597E0DFB
+Reference = C6;
+ValeurCmp = 2.2u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2DB5
+Path = /597D8090
+Reference = D1;
+ValeurCmp = BAT54HT1G;
+IdModule  = Diodes_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E03
+Path = /597E6AFE
+Reference = Q1;
+ValeurCmp = CSD17308Q3;
+IdModule  = Housings_SON:VSON-8_3.3x3.3mm_Pitch0.65mm_NexFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E1F
+Path = /597E6C1E
+Reference = Q2;
+ValeurCmp = CSD17308Q3;
+IdModule  = Housings_SON:VSON-8_3.3x3.3mm_Pitch0.65mm_NexFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E34
+Path = /597DF192
+Reference = Q3;
+ValeurCmp = 2N7002;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E54
+Path = /597E22A7
+Reference = R1;
+ValeurCmp = NET-TIE;
+IdModule  = Oddities:NetTie-I_Connected;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E65
+Path = /597D97AB
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E76
+Path = /597D983F
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E87
+Path = /597D9881
+Reference = R4;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2E98
+Path = /597D98C3
+Reference = R5;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2EA9
+Path = /597DC663
+Reference = R6;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2EBA
+Path = /597DBE1F
+Reference = R7;
+ValeurCmp = 0.001R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2ECB
+Path = /597DC787
+Reference = R8;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2EEB
+Path = /597E270E
+Reference = R9;
+ValeurCmp = NET-TIE;
+IdModule  = Oddities:NetTie-I_Connected;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2EFC
+Path = /597D7CD3
+Reference = R10;
+ValeurCmp = 10M;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F0D
+Path = /597DEEA7
+Reference = R11;
+ValeurCmp = 5.1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F1E
+Path = /597D81DC
+Reference = R12;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F2F
+Path = /597D7E73
+Reference = R13;
+ValeurCmp = 10M;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F40
+Path = /597DF55A
+Reference = R14;
+ValeurCmp = 5.1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F51
+Path = /597E00A9
+Reference = R15;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F62
+Path = /597E0ADE
+Reference = R16;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F73
+Path = /597D94E6
+Reference = R17;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F84
+Path = /597D9352
+Reference = R18;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2F95
+Path = /597DB329
+Reference = TH1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2FA6
+Path = /597DB805
+Reference = TH2;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2FB7
+Path = /597DB855
+Reference = TH3;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2FC8
+Path = /597DB899
+Reference = TH4;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 598F2FFD
+Path = /597C0F06
+Reference = U1;
+ValeurCmp = bq40z50-r2;
+IdModule  = TI SBS:QFN-32_EP_3.8x3.8_Pitch0.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5999B6D7
+Path = /5992673F
+Reference = J1;
+ValeurCmp = CONN_01X06;
+IdModule  = TI SBS:14110613002XXX;
+EndCmp
+
+BeginCmp
+TimeStamp = 5999B700
+Path = /59926BB4
+Reference = R19;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5999B711
+Path = /59926AF9
+Reference = R20;
+ValeurCmp = 100R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+EndListe
