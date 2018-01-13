@@ -1,34 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ti-sbs
+EESchema Schematic File Version 4
 LIBS:SB-4S5A-cache
 EELAYER 26 0
 EELAYER END
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bq40z50-r2 U1
+L SB-4S5A-rescue:bq40z50-r2-RESCUE-SB-4S5A U1
 U 1 1 597C0F06
 P 6050 3850
 F 0 "U1" H 5750 4650 60  0000 L CNN
@@ -56,7 +26,7 @@ F 3 "" H 6050 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Cell BT1
+L device:Battery_Cell BT1
 U 1 1 597D5B15
 P 1650 3000
 F 0 "BT1" H 1768 3096 50  0000 L CNN
@@ -67,7 +37,7 @@ F 3 "" V 1650 3060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Cell BT2
+L device:Battery_Cell BT2
 U 1 1 597D5BA3
 P 1650 3500
 F 0 "BT2" H 1768 3596 50  0000 L CNN
@@ -78,7 +48,7 @@ F 3 "" V 1650 3560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Cell BT3
+L device:Battery_Cell BT3
 U 1 1 597D5BC7
 P 1650 4000
 F 0 "BT3" H 1768 4096 50  0000 L CNN
@@ -89,7 +59,7 @@ F 3 "" V 1650 4060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Cell BT4
+L device:Battery_Cell BT4
 U 1 1 597D5C07
 P 1650 4500
 F 0 "BT4" H 1768 4596 50  0000 L CNN
@@ -100,7 +70,7 @@ F 3 "" V 1650 4560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR02
+L power:GNDD #PWR02
 U 1 1 597D5F72
 P 2100 5350
 F 0 "#PWR02" H 2100 5100 50  0001 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 2100 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R10
 U 1 1 597D7CD3
 P 5050 1500
 F 0 "R10" H 5200 1450 50  0000 R CNN
@@ -122,7 +92,7 @@ F 3 "" H 5050 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R13
 U 1 1 597D7E73
 P 7050 1500
 F 0 "R13" H 6980 1454 50  0000 R CNN
@@ -133,7 +103,7 @@ F 3 "" H 7050 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D_Schottky D1
+L device:D_Schottky D1
 U 1 1 597D8090
 P 5150 3200
 F 0 "D1" H 5150 2984 50  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 5150 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R12
 U 1 1 597D81DC
 P 6050 2300
 F 0 "R12" H 5980 2254 50  0000 R CNN
@@ -155,7 +125,7 @@ F 3 "" H 6050 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR07
+L power:GNDD #PWR07
 U 1 1 597D870F
 P 6650 4650
 F 0 "#PWR07" H 6650 4400 50  0001 C CNN
@@ -168,7 +138,7 @@ $EndComp
 NoConn ~ 6550 3500
 NoConn ~ 6550 3700
 $Comp
-L GNDD #PWR05
+L power:GNDD #PWR05
 U 1 1 597D8929
 P 5450 4650
 F 0 "#PWR05" H 5450 4400 50  0001 C CNN
@@ -179,7 +149,7 @@ F 3 "" H 5450 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR06
+L power:GNDD #PWR06
 U 1 1 597D8A8D
 P 6650 3400
 F 0 "#PWR06" H 6650 3150 50  0001 C CNN
@@ -190,7 +160,7 @@ F 3 "" H 6650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R18
 U 1 1 597D9352
 P 8600 4300
 F 0 "R18" V 8807 4300 50  0000 C CNN
@@ -201,7 +171,7 @@ F 3 "" H 8600 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R17
+L device:R R17
 U 1 1 597D94E6
 P 8350 4400
 F 0 "R17" V 8557 4400 50  0000 C CNN
@@ -212,7 +182,7 @@ F 3 "" H 8350 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R2
 U 1 1 597D97AB
 P 2250 2700
 F 0 "R2" V 2457 2700 50  0000 C CNN
@@ -223,7 +193,7 @@ F 3 "" H 2250 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R3
 U 1 1 597D983F
 P 2250 3200
 F 0 "R3" V 2457 3200 50  0000 C CNN
@@ -234,7 +204,7 @@ F 3 "" H 2250 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R4
 U 1 1 597D9881
 P 2250 3700
 F 0 "R4" V 2457 3700 50  0000 C CNN
@@ -245,7 +215,7 @@ F 3 "" H 2250 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R5
 U 1 1 597D98C3
 P 2250 4200
 F 0 "R5" V 2457 4200 50  0000 C CNN
@@ -256,7 +226,7 @@ F 3 "" H 2250 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L device:C C1
 U 1 1 597DA829
 P 2650 2950
 F 0 "C1" H 2765 2996 50  0000 L CNN
@@ -267,7 +237,7 @@ F 3 "" H 2650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L device:C C2
 U 1 1 597DA9C3
 P 2650 3450
 F 0 "C2" H 2765 3496 50  0000 L CNN
@@ -278,7 +248,7 @@ F 3 "" H 2650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L device:C C3
 U 1 1 597DAA35
 P 2650 3950
 F 0 "C3" H 2765 3996 50  0000 L CNN
@@ -289,7 +259,7 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L device:C C4
 U 1 1 597DAA98
 P 2650 4450
 F 0 "C4" H 2765 4496 50  0000 L CNN
@@ -300,7 +270,7 @@ F 3 "" H 2650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Thermistor_NTC TH1
+L device:Thermistor_NTC TH1
 U 1 1 597DB329
 P 4500 4450
 F 0 "TH1" H 4450 4650 50  0000 L CNN
@@ -311,7 +281,7 @@ F 3 "" H 4500 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Thermistor_NTC TH2
+L device:Thermistor_NTC TH2
 U 1 1 597DB805
 P 4650 4450
 F 0 "TH2" H 4600 4650 50  0000 L CNN
@@ -322,7 +292,7 @@ F 3 "" H 4650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Thermistor_NTC TH3
+L device:Thermistor_NTC TH3
 U 1 1 597DB855
 P 4800 4450
 F 0 "TH3" H 4750 4650 50  0000 L CNN
@@ -333,7 +303,7 @@ F 3 "" H 4800 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Thermistor_NTC TH4
+L device:Thermistor_NTC TH4
 U 1 1 597DB899
 P 4950 4450
 F 0 "TH4" H 4900 4650 50  0000 L CNN
@@ -344,7 +314,7 @@ F 3 "" H 4950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R7
 U 1 1 597DBE1F
 P 3500 5100
 F 0 "R7" V 3293 5100 50  0000 C CNN
@@ -355,7 +325,7 @@ F 3 "" H 3500 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R6
 U 1 1 597DC663
 P 3250 4750
 F 0 "R6" H 3180 4704 50  0000 R CNN
@@ -366,7 +336,7 @@ F 3 "" H 3250 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R8
 U 1 1 597DC787
 P 3750 4750
 F 0 "R8" H 3680 4704 50  0000 R CNN
@@ -377,7 +347,7 @@ F 3 "" H 3750 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C5
+L device:C C5
 U 1 1 597DC7E1
 P 3500 4500
 F 0 "C5" V 3248 4500 50  0000 C CNN
@@ -554,7 +524,7 @@ Wire Wire Line
 	5550 3900 3750 3900
 Connection ~ 3750 4500
 $Comp
-L GNDD #PWR04
+L power:GNDD #PWR04
 U 1 1 597DD005
 P 4500 4800
 F 0 "#PWR04" H 4500 4550 50  0001 C CNN
@@ -604,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3650 5250 5000
 $Comp
-L R R11
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R11
 U 1 1 597DEEA7
 P 5050 2300
 F 0 "R11" H 4980 2254 50  0000 R CNN
@@ -615,7 +585,7 @@ F 3 "" H 5050 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2N7002 Q3
+L Transistor:2N7002 Q3
 U 1 1 597DF192
 P 7350 1750
 F 0 "Q3" H 7556 1704 50  0000 L CNN
@@ -633,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 2050 7050 2050
 $Comp
-L R R14
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R14
 U 1 1 597DF55A
 P 7050 2300
 F 0 "R14" H 6980 2254 50  0000 R CNN
@@ -655,7 +625,7 @@ Wire Wire Line
 	6050 2700 6050 2450
 Connection ~ 7050 2050
 $Comp
-L R R15
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R15
 U 1 1 597E00A9
 P 7650 2000
 F 0 "R15" H 7720 2046 50  0000 L CNN
@@ -684,7 +654,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 1750 7650 1850
 $Comp
-L R R16
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R16
 U 1 1 597E0ADE
 P 7900 2000
 F 0 "R16" H 7970 2046 50  0000 L CNN
@@ -706,7 +676,7 @@ Wire Wire Line
 	7900 1850 7900 1350
 Connection ~ 7900 1350
 $Comp
-L C C6
+L device:C C6
 U 1 1 597E0DFB
 P 4250 4450
 F 0 "C6" H 4100 4550 50  0000 L CNN
@@ -730,7 +700,7 @@ NoConn ~ 6550 4100
 NoConn ~ 6550 4200
 Connection ~ 7050 1350
 $Comp
-L R R1
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R1
 U 1 1 597E22A7
 P 1900 5300
 F 0 "R1" V 1900 5300 50  0000 C CNN
@@ -745,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 5300 2100 5350
 $Comp
-L CSD19534Q5A Q1
+L SB-4S5A-rescue:CSD19534Q5A-RESCUE-SB-4S5A Q1
 U 1 1 597E6AFE
 P 5550 1550
 F 0 "Q1" H 5550 1967 50  0000 C CNN
@@ -756,7 +726,7 @@ F 3 "" V 5550 1550 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSD19534Q5A Q2
+L SB-4S5A-rescue:CSD19534Q5A-RESCUE-SB-4S5A Q2
 U 1 1 597E6C1E
 P 6550 1550
 F 0 "Q2" H 6550 1967 50  0000 C CNN
@@ -767,18 +737,18 @@ F 3 "" V 6550 1550 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J1
+L Connector:Conn_01x06 J1
 U 1 1 5992673F
-P 9350 4350
-F 0 "J1" H 9268 3875 50  0000 C CNN
-F 1 "CONN_01X06" H 9268 3966 50  0000 C CNN
-F 2 "TI SBS:14110613002XXX" H 9350 4350 50  0001 C CNN
-F 3 "" H 9350 4350 50  0001 C CNN
-	1    9350 4350
+P 9350 4400
+F 0 "J1" H 9268 3925 50  0000 C CNN
+F 1 "CONN_01X06" H 9268 4016 50  0000 C CNN
+F 2 "TI SBS:14110613002XXX" H 9350 4400 50  0001 C CNN
+F 3 "" H 9350 4400 50  0001 C CNN
+	1    9350 4400
 	1    0    0    1   
 $EndComp
 $Comp
-L R R20
+L SB-4S5A-rescue:R-RESCUE-SB-4S5A R20
 U 1 1 59926AF9
 P 8600 4500
 F 0 "R20" V 8807 4500 50  0000 C CNN
@@ -789,7 +759,7 @@ F 3 "" H 8600 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R19
+L device:R R19
 U 1 1 59926BB4
 P 8350 4600
 F 0 "R19" V 8557 4600 50  0000 C CNN
@@ -895,7 +865,7 @@ Text Label 7050 1950 1    60   ~ 0
 DSG_G
 Connection ~ 6650 3400
 $Comp
-L GNDD #PWR01
+L power:GNDD #PWR01
 U 1 1 59980A6F
 P 2650 4700
 F 0 "#PWR01" H 2650 4450 50  0001 C CNN
