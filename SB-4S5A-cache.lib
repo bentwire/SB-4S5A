@@ -1,6 +1,43 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Specialized:LEMO6
+#
+DEF Connector_Specialized:LEMO6 J 0 40 Y N 1 F N
+F0 "J" 325 375 50 H V C CNN
+F1 "Connector_Specialized:LEMO6" 325 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 300 -901 -1799 0 1 0 N -1 -300 -300 -1
+A 0 0 300 -1 -899 0 1 0 N 300 -1 1 -300
+C -200 -100 30 0 1 0 N
+C -200 100 30 0 1 0 N
+C 0 -200 30 0 1 0 N
+C 0 0 400 0 1 10 f
+C 0 200 30 0 1 0 N
+C 200 -100 30 0 1 0 N
+C 200 100 30 0 1 0 N
+P 2 0 1 0 -400 200 -350 200 N
+P 2 0 1 0 -350 -200 -400 -200 N
+P 2 0 1 0 -350 -200 -230 -110 N
+P 2 0 1 0 -350 200 -230 110 N
+P 2 0 1 0 -300 0 300 0 N
+P 2 0 1 0 0 -400 0 -230 N
+P 2 0 1 0 0 400 0 230 N
+P 2 0 1 0 350 -200 230 -110 N
+P 2 0 1 0 350 -200 400 -200 N
+P 2 0 1 0 350 200 230 110 N
+P 2 0 1 0 400 200 350 200 N
+X ~ 1 -500 -200 100 R 50 50 1 1 P
+X ~ 2 0 -500 100 U 50 50 1 1 P
+X ~ 3 500 -200 100 L 50 50 1 1 P
+X ~ 4 500 200 100 L 50 50 1 1 P
+X ~ 5 0 500 100 D 50 50 1 1 P
+X ~ 6 -500 200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SB-4S5A-rescue:2N7002-Transistor
 #
 DEF SB-4S5A-rescue:2N7002-Transistor Q 0 0 Y N 1 F N
@@ -121,34 +158,6 @@ X D 5 300 -100 100 L 50 50 1 1 P
 X D 5 300 0 100 L 50 50 1 1 P
 X D 5 300 100 100 L 50 50 1 1 P
 X D 5 300 200 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector
-#
-DEF SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector J 0 40 Y N 1 F N
-F0 "J" 50 200 50 H V C CNN
-F1 "SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 150 -150 1 1 10 f
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 300 100 150 L 50 50 1 1 P
-X Pin_5 5 300 0 150 L 50 50 1 1 P
-X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
