@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# SB-4S5A-rescue:2N7002-Transistor
+# 2N7002-Transistor
 #
-DEF SB-4S5A-rescue:2N7002-Transistor Q 0 0 Y N 1 F N
+DEF 2N7002-Transistor Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "SB-4S5A-rescue:2N7002-Transistor" 200 0 50 H V L CNN
+F1 "2N7002-Transistor" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -35,11 +35,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:Battery_Cell-device
+# Battery_Cell-device
 #
-DEF SB-4S5A-rescue:Battery_Cell-device BT 0 0 N N 1 F N
+DEF Battery_Cell-device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "SB-4S5A-rescue:Battery_Cell-device" 100 0 50 H V L CNN
+F1 "Battery_Cell-device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -54,11 +54,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:C-device
+# C-device
 #
-DEF SB-4S5A-rescue:C-device C 0 10 N Y 1 F N
+DEF C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "SB-4S5A-rescue:C-device" 25 -100 50 H V L CNN
+F1 "C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +72,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:CSD19534Q5A-RESCUE-SB-4S5A
+# CSD19534Q5A-RESCUE-SB-4S5A
 #
-DEF SB-4S5A-rescue:CSD19534Q5A-RESCUE-SB-4S5A Q 0 0 Y N 1 F N
+DEF CSD19534Q5A-RESCUE-SB-4S5A Q 0 0 Y N 1 F N
 F0 "Q" -200 300 50 H V L CNN
-F1 "SB-4S5A-rescue:CSD19534Q5A-RESCUE-SB-4S5A" -200 -250 50 H V L CNN
+F1 "CSD19534Q5A-RESCUE-SB-4S5A" -200 -250 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:TDSON-8-1" 0 200 50 H I C CIN
 F3 "" 0 0 50 V I L CNN
 $FPLIST
@@ -124,11 +124,11 @@ X D 5 300 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector
+# Conn_02x03_Top_Bottom-Connector
 #
-DEF SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector J 0 40 Y N 1 F N
+DEF Conn_02x03_Top_Bottom-Connector J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Top_Bottom-Connector" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -152,11 +152,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:D_Schottky-device
+# D_Schottky-device
 #
-DEF SB-4S5A-rescue:D_Schottky-device D 0 40 N N 1 F N
+DEF D_Schottky-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "SB-4S5A-rescue:D_Schottky-device" 0 -100 50 H V C CNN
+F1 "D_Schottky-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -175,11 +175,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:R-RESCUE-SB-4S5A
+# R-RESCUE-SB-4S5A
 #
-DEF SB-4S5A-rescue:R-RESCUE-SB-4S5A R 0 0 N Y 1 F N
+DEF R-RESCUE-SB-4S5A R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "SB-4S5A-rescue:R-RESCUE-SB-4S5A" 0 0 50 V V C CNN
+F1 "R-RESCUE-SB-4S5A" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -193,11 +193,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:R-device
+# R-device
 #
-DEF SB-4S5A-rescue:R-device R 0 0 N Y 1 F N
+DEF R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "SB-4S5A-rescue:R-device" 0 0 50 V V C CNN
+F1 "R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -211,11 +211,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:Thermistor_NTC-device
+# Thermistor_NTC-device
 #
-DEF SB-4S5A-rescue:Thermistor_NTC-device TH 0 0 N Y 1 F N
+DEF Thermistor_NTC-device TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "SB-4S5A-rescue:Thermistor_NTC-device" 125 0 50 V V C CNN
+F1 "Thermistor_NTC-device" 125 0 50 V V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 $FPLIST
@@ -243,11 +243,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SB-4S5A-rescue:bq40z50-r2-RESCUE-SB-4S5A
+# bq40z50-r2-RESCUE-SB-4S5A
 #
-DEF SB-4S5A-rescue:bq40z50-r2-RESCUE-SB-4S5A U 0 40 Y Y 1 F N
+DEF bq40z50-r2-RESCUE-SB-4S5A U 0 40 Y Y 1 F N
 F0 "U" -250 800 60 H V C CNN
-F1 "SB-4S5A-rescue:bq40z50-r2-RESCUE-SB-4S5A" 0 -850 60 H V C CNN
+F1 "bq40z50-r2-RESCUE-SB-4S5A" 0 -850 60 H V C CNN
 F2 "TI SBS:QFN-32_EP_3.8x3.8_Pitch0.4mm" 0 250 60 H I C CNN
 F3 "" 0 250 60 H I C CNN
 DRAW
@@ -285,20 +285,6 @@ X SRN 6 -500 -50 200 R 30 40 1 1 I
 X NC 7 -500 -600 200 R 30 40 1 1 I
 X SRP 8 -500 50 200 R 30 40 1 1 I
 X VSS 9 500 -650 200 L 30 40 1 1 W
-ENDDRAW
-ENDDEF
-#
-# power:GNDD
-#
-DEF power:GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDD" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

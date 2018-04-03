@@ -26,7 +26,7 @@ F 3 "" H 6050 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery_Cell BT1
+L SB-4S5A-rescue:Battery_Cell-device BT1
 U 1 1 597D5B15
 P 1650 3000
 F 0 "BT1" H 1768 3096 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" V 1650 3060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery_Cell BT2
+L SB-4S5A-rescue:Battery_Cell-device BT2
 U 1 1 597D5BA3
 P 1650 3500
 F 0 "BT2" H 1768 3596 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" V 1650 3560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery_Cell BT3
+L SB-4S5A-rescue:Battery_Cell-device BT3
 U 1 1 597D5BC7
 P 1650 4000
 F 0 "BT3" H 1768 4096 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" V 1650 4060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery_Cell BT4
+L SB-4S5A-rescue:Battery_Cell-device BT4
 U 1 1 597D5C07
 P 1650 4500
 F 0 "BT4" H 1768 4596 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 7050 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:D_Schottky D1
+L SB-4S5A-rescue:D_Schottky-device D1
 U 1 1 597D8090
 P 5150 3200
 F 0 "D1" H 5150 2984 50  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 8600 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R17
+L SB-4S5A-rescue:R-device R17
 U 1 1 597D94E6
 P 8350 4400
 F 0 "R17" V 8557 4400 50  0000 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 2250 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C1
+L SB-4S5A-rescue:C-device C1
 U 1 1 597DA829
 P 2650 2950
 F 0 "C1" H 2765 2996 50  0000 L CNN
@@ -237,7 +237,7 @@ F 3 "" H 2650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L SB-4S5A-rescue:C-device C2
 U 1 1 597DA9C3
 P 2650 3450
 F 0 "C2" H 2765 3496 50  0000 L CNN
@@ -248,7 +248,7 @@ F 3 "" H 2650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C3
+L SB-4S5A-rescue:C-device C3
 U 1 1 597DAA35
 P 2650 3950
 F 0 "C3" H 2765 3996 50  0000 L CNN
@@ -259,7 +259,7 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C4
+L SB-4S5A-rescue:C-device C4
 U 1 1 597DAA98
 P 2650 4450
 F 0 "C4" H 2765 4496 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "" H 2650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Thermistor_NTC TH1
+L SB-4S5A-rescue:Thermistor_NTC-device TH1
 U 1 1 597DB329
 P 4500 4450
 F 0 "TH1" H 4450 4650 50  0000 L CNN
@@ -281,7 +281,7 @@ F 3 "" H 4500 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Thermistor_NTC TH2
+L SB-4S5A-rescue:Thermistor_NTC-device TH2
 U 1 1 597DB805
 P 4650 4450
 F 0 "TH2" H 4600 4650 50  0000 L CNN
@@ -292,7 +292,7 @@ F 3 "" H 4650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Thermistor_NTC TH3
+L SB-4S5A-rescue:Thermistor_NTC-device TH3
 U 1 1 597DB855
 P 4800 4450
 F 0 "TH3" H 4750 4650 50  0000 L CNN
@@ -303,7 +303,7 @@ F 3 "" H 4800 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Thermistor_NTC TH4
+L SB-4S5A-rescue:Thermistor_NTC-device TH4
 U 1 1 597DB899
 P 4950 4450
 F 0 "TH4" H 4900 4650 50  0000 L CNN
@@ -347,7 +347,7 @@ F 3 "" H 3750 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C5
+L SB-4S5A-rescue:C-device C5
 U 1 1 597DC7E1
 P 3500 4500
 F 0 "C5" V 3248 4500 50  0000 C CNN
@@ -358,15 +358,15 @@ F 3 "" H 3500 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 1350 6250 1350
+	5850 1350 6050 1350
 Wire Wire Line
-	5850 1450 6250 1450
+	5850 1450 6050 1450
 Wire Wire Line
-	5850 1550 6250 1550
+	5850 1550 6050 1550
 Wire Wire Line
-	5850 1650 6250 1650
+	5850 1650 6050 1650
 Wire Wire Line
-	6050 1350 6050 2150
+	6050 1350 6050 1450
 Connection ~ 6050 1450
 Connection ~ 6050 1350
 Connection ~ 6050 1550
@@ -374,16 +374,16 @@ Connection ~ 6050 1650
 Wire Wire Line
 	5150 1550 5250 1550
 Wire Wire Line
-	5150 1350 5150 1550
+	5150 1350 5150 1450
 Wire Wire Line
 	5250 1450 5150 1450
 Connection ~ 5150 1450
 Wire Wire Line
 	6950 1550 6850 1550
 Wire Wire Line
-	6950 1350 6950 1550
+	6950 1350 6950 1450
 Wire Wire Line
-	6850 1350 8250 1350
+	6850 1350 6950 1350
 Wire Wire Line
 	6850 1450 6950 1450
 Connection ~ 6950 1450
@@ -395,7 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1650 7050 1650
 Wire Wire Line
-	7050 1650 7050 2150
+	7050 1650 7050 2050
 Wire Wire Line
 	4800 1350 4800 3200
 Wire Wire Line
@@ -403,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4500 6650 4500
 Wire Wire Line
-	6650 4500 6650 4650
+	6650 4500 6650 4550
 Wire Wire Line
 	6550 4550 6650 4550
 Connection ~ 6650 4550
@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 4450 5450 4450
 Wire Wire Line
-	5450 4450 5450 4650
+	5450 4450 5450 4500
 Wire Wire Line
 	5550 4500 5450 4500
 Connection ~ 5450 4500
@@ -426,15 +426,13 @@ Connection ~ 5450 4550
 Wire Wire Line
 	8750 4300 9150 4300
 Wire Wire Line
-	8500 4400 9150 4400
+	1650 4100 1650 4200
 Wire Wire Line
-	1650 4100 1650 4300
+	1650 3600 1650 3700
 Wire Wire Line
-	1650 3600 1650 3800
+	1650 3100 1650 3200
 Wire Wire Line
-	1650 3100 1650 3300
-Wire Wire Line
-	1650 1350 1650 2800
+	1650 1350 1650 2700
 Wire Wire Line
 	2100 2700 1650 2700
 Connection ~ 1650 2700
@@ -448,9 +446,9 @@ Wire Wire Line
 	2100 4200 1650 4200
 Connection ~ 1650 4200
 Wire Wire Line
-	1650 4600 1650 5300
+	1650 4600 1650 4700
 Wire Wire Line
-	1650 1350 5250 1350
+	1650 1350 4800 1350
 Connection ~ 5150 1350
 Connection ~ 5050 1350
 Connection ~ 4800 1350
@@ -459,36 +457,36 @@ Wire Wire Line
 Wire Wire Line
 	3100 2700 3100 3400
 Wire Wire Line
-	2400 2700 3100 2700
+	2400 2700 2650 2700
 Wire Wire Line
 	3050 3450 5550 3450
 Wire Wire Line
 	3050 3200 3050 3450
 Wire Wire Line
-	2400 3200 3050 3200
+	2400 3200 2650 3200
 Wire Wire Line
 	3050 3500 5550 3500
 Wire Wire Line
 	3050 3700 3050 3500
 Wire Wire Line
-	2400 3700 3050 3700
+	2400 3700 2650 3700
 Wire Wire Line
 	3100 3550 5550 3550
 Wire Wire Line
 	3100 4200 3100 3550
 Wire Wire Line
-	2400 4200 3100 4200
+	2400 4200 2650 4200
 Wire Wire Line
 	2650 2700 2650 2800
 Connection ~ 2650 2700
 Wire Wire Line
-	2650 3100 2650 3300
+	2650 3100 2650 3200
 Connection ~ 2650 3200
 Wire Wire Line
-	2650 3600 2650 3800
+	2650 3600 2650 3700
 Connection ~ 2650 3700
 Wire Wire Line
-	2650 4100 2650 4300
+	2650 4100 2650 4200
 Connection ~ 2650 4200
 Wire Wire Line
 	2650 4600 2650 4700
@@ -510,11 +508,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 4500 3750 4500
 Wire Wire Line
-	3750 3900 3750 4600
+	3750 3900 3750 4500
 Wire Wire Line
 	3350 4500 3250 4500
 Wire Wire Line
-	3250 3800 3250 4600
+	3250 3800 3250 4500
 Wire Wire Line
 	3650 5100 8250 5100
 Wire Wire Line
@@ -535,9 +533,9 @@ F 3 "" H 4500 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 4600 4500 4800
+	4500 4600 4500 4700
 Wire Wire Line
-	4250 4700 4950 4700
+	4250 4700 4500 4700
 Wire Wire Line
 	4950 4700 4950 4600
 Wire Wire Line
@@ -585,7 +583,7 @@ F 3 "" H 5050 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor:2N7002 Q3
+L SB-4S5A-rescue:2N7002-Transistor Q3
 U 1 1 597DF192
 P 7350 1750
 F 0 "Q3" H 7556 1704 50  0000 L CNN
@@ -676,7 +674,7 @@ Wire Wire Line
 	7900 1850 7900 1350
 Connection ~ 7900 1350
 $Comp
-L device:C C6
+L SB-4S5A-rescue:C-device C6
 U 1 1 597E0DFB
 P 4250 4450
 F 0 "C6" H 4100 4550 50  0000 L CNN
@@ -705,7 +703,7 @@ U 1 1 597E22A7
 P 1900 5300
 F 0 "R1" V 1900 5300 50  0000 C CNN
 F 1 "NET-TIE" V 1800 5300 50  0000 C CNN
-F 2 "Oddities:NetTie-I_Connected" V 1830 5300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0402" V 1830 5300 50  0001 C CNN
 F 3 "" H 1900 5300 50  0001 C CNN
 	1    1900 5300
 	0    -1   -1   0   
@@ -737,17 +735,6 @@ F 3 "" V 6550 1550 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06 J1
-U 1 1 5992673F
-P 9350 4400
-F 0 "J1" H 9268 3925 50  0000 C CNN
-F 1 "CONN_01X06" H 9268 4016 50  0000 C CNN
-F 2 "TI SBS:14110613002XXX" H 9350 4400 50  0001 C CNN
-F 3 "" H 9350 4400 50  0001 C CNN
-	1    9350 4400
-	1    0    0    1   
-$EndComp
-$Comp
 L SB-4S5A-rescue:R-RESCUE-SB-4S5A R20
 U 1 1 59926AF9
 P 8600 4500
@@ -759,7 +746,7 @@ F 3 "" H 8600 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R19
+L SB-4S5A-rescue:R-device R19
 U 1 1 59926BB4
 P 8350 4600
 F 0 "R19" V 8557 4600 50  0000 C CNN
@@ -776,15 +763,11 @@ Wire Wire Line
 Wire Wire Line
 	8000 4500 8450 4500
 Wire Wire Line
-	8750 4500 9150 4500
-Wire Wire Line
 	5250 5000 8100 5000
 Wire Wire Line
 	8100 5000 8100 4600
 Wire Wire Line
 	8100 4600 8200 4600
-Wire Wire Line
-	8500 4600 9150 4600
 Wire Wire Line
 	9150 4100 9000 4100
 Wire Wire Line
@@ -891,4 +874,109 @@ Wire Wire Line
 	6850 4500 6850 4300
 Wire Wire Line
 	6850 4300 6550 4300
+Wire Wire Line
+	6050 1450 6250 1450
+Wire Wire Line
+	6050 1450 6050 1550
+Wire Wire Line
+	6050 1350 6250 1350
+Wire Wire Line
+	6050 1550 6250 1550
+Wire Wire Line
+	6050 1550 6050 1650
+Wire Wire Line
+	6050 1650 6250 1650
+Wire Wire Line
+	6050 1650 6050 2150
+Wire Wire Line
+	5150 1450 5150 1550
+Wire Wire Line
+	6950 1450 6950 1550
+Wire Wire Line
+	6950 1350 7050 1350
+Wire Wire Line
+	6650 4550 6650 4650
+Wire Wire Line
+	5450 4500 5450 4550
+Wire Wire Line
+	5450 4550 5450 4650
+Wire Wire Line
+	1650 2700 1650 2800
+Wire Wire Line
+	1650 3200 1650 3300
+Wire Wire Line
+	1650 3700 1650 3800
+Wire Wire Line
+	1650 4200 1650 4300
+Wire Wire Line
+	5150 1350 5250 1350
+Wire Wire Line
+	5050 1350 5150 1350
+Wire Wire Line
+	4800 1350 5050 1350
+Wire Wire Line
+	2650 2700 3100 2700
+Wire Wire Line
+	2650 3200 3050 3200
+Wire Wire Line
+	2650 3200 2650 3300
+Wire Wire Line
+	2650 3700 3050 3700
+Wire Wire Line
+	2650 3700 2650 3800
+Wire Wire Line
+	2650 4200 3100 4200
+Wire Wire Line
+	2650 4200 2650 4300
+Wire Wire Line
+	1650 4700 1650 5300
+Wire Wire Line
+	3250 4500 3250 4600
+Wire Wire Line
+	3750 4500 3750 4600
+Wire Wire Line
+	4650 4700 4800 4700
+Wire Wire Line
+	4800 4700 4950 4700
+Wire Wire Line
+	4500 4700 4500 4800
+Wire Wire Line
+	4500 4700 4650 4700
+Wire Wire Line
+	7250 1350 7900 1350
+Wire Wire Line
+	7050 2050 7050 2150
+Wire Wire Line
+	7900 1350 8250 1350
+Wire Wire Line
+	7050 1350 7250 1350
+$Comp
+L SB-4S5A-rescue:Conn_02x03_Top_Bottom-Connector J1
+U 1 1 5A5A1977
+P 9350 4200
+F 0 "J1" H 9400 4517 50  0000 C CNN
+F 1 "Conn_02x03_Top_Bottom" H 9400 4426 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x03_Angled_43045-060x" H 9350 4200 50  0001 C CNN
+F 3 "~" H 9350 4200 50  0001 C CNN
+	1    9350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4200 9650 4200
+Wire Wire Line
+	8750 4500 9850 4500
+Wire Wire Line
+	9650 4100 9950 4100
+Wire Wire Line
+	9950 4400 9950 4100
+Wire Wire Line
+	8500 4400 9950 4400
+Wire Wire Line
+	9850 4500 9850 4200
+Wire Wire Line
+	10050 4300 10050 4600
+Wire Wire Line
+	9650 4300 10050 4300
+Wire Wire Line
+	8500 4600 10050 4600
 $EndSCHEMATC
