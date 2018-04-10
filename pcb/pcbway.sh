@@ -2,7 +2,7 @@
 
 PCBDIR=pcbway
 PROJECT=SB-4S5A
-VERSION=v0.9
+VERSION=v1.0
 
 mkdir ${PCBDIR}
 
@@ -19,6 +19,8 @@ cp SB-4S5A-NPTH.drl	${PCBDIR}/
 cp SB-4S5A-PTH.drl	${PCBDIR}/
 
 cp *.xlsx		${PCBDIR}/
+
+cp SB-4S5A-all-pos.csv 	${PCBDIR}/
 
 pushd ${PCBDIR}
 zip ../${PCBDIR}-${PROJECT}-${VERSION}.zip *
