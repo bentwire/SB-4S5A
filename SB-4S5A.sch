@@ -135,7 +135,6 @@ F 3 "" H 6650 4650 50  0001 C CNN
 	1    6650 4650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6550 3500
 NoConn ~ 6550 3700
 $Comp
 L power:GNDD #PWR05
@@ -151,12 +150,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR06
 U 1 1 597D8A8D
-P 6650 3400
-F 0 "#PWR06" H 6650 3150 50  0001 C CNN
-F 1 "GNDD" H 6650 3250 50  0000 C CNN
-F 2 "" H 6650 3400 50  0001 C CNN
-F 3 "" H 6650 3400 50  0001 C CNN
-	1    6650 3400
+P 6650 3700
+F 0 "#PWR06" H 6650 3450 50  0001 C CNN
+F 1 "GNDD" H 6650 3550 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -407,10 +406,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 4550 6650 4550
 Connection ~ 6650 4550
-Wire Wire Line
-	6550 3400 6650 3400
-Wire Wire Line
-	6650 3400 6650 3300
 Wire Wire Line
 	6650 3300 6550 3300
 Wire Wire Line
@@ -846,7 +841,6 @@ Text Label 5050 2050 1    60   ~ 0
 CHG_G
 Text Label 7050 1950 1    60   ~ 0
 DSG_G
-Connection ~ 6650 3400
 $Comp
 L power:GNDD #PWR01
 U 1 1 59980A6F
@@ -987,4 +981,16 @@ Wire Wire Line
 	10450 4600 10450 2800
 Wire Wire Line
 	8500 4600 10450 4600
+Wire Wire Line
+	6650 3300 6650 3400
+Wire Wire Line
+	6550 3400 6650 3400
+Connection ~ 6650 3400
+Wire Wire Line
+	6650 3400 6650 3500
+Wire Wire Line
+	6550 3500 6650 3500
+Connection ~ 6650 3500
+Wire Wire Line
+	6650 3500 6650 3700
 $EndSCHEMATC
